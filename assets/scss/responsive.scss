@@ -11,14 +11,13 @@
         padding-right: 40px;
         .botao {
             display: block;
-            margin-right: 0px;
             margin-bottom: 20px;
-            padding: 5px 10px;
+            padding: 10px 20px;
             text-align: center;
         }
 
         .botao-transparente{
-            padding-left: 80px ;
+            padding-left: 63px ;
         }
     }
 
@@ -40,41 +39,53 @@
 //==========================================
 @media (max-width: 900px) {
     #inicio {
-        display: block;
+        display: flex;
         padding-bottom: 64px;
         h1 {
-            margin-top: 32px;
+            margin-top: 0px;
         }
 
         .dog{
-            margin-left: 120px;
+            width: 50%;
+        }
+
+        .paragrafo {
+            margin-bottom: 20px;
+            text-align: justify;
         }
 
         .botao {
-            width: 200px;
-            height: 20px;
             margin-bottom: 25px;
-            margin-left: 295px;
         }
 
         .botao-transparente {
-            margin-left: 255px;
+            padding-left: 86px;
         }
     }
 
     #clinica {
-        display: block;
+        display: flex;
+        padding-top: 0px;
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 24px;
         .dog-c {
-            margin-left: 200px;
+            width: 50%;
+        }
+    }
+
+    #farmacia {
+        padding-top: 24px;
+        .vet-f {
+            width: 100%;
         }
     }
 
     #duvidas {
-        display: block;
+        display: flex;
+        margin-right: 40px;
         .dvd {
-            margin-left: 130px;
+            width: 50%;
         }
         h2 {
             text-align: center;
@@ -92,47 +103,35 @@
     #inicio {
         h1 {
             margin-top: 24px;
-            text-align: center;
-        }
-
-        .paragrafo {
-            text-align: justify;
         }
 
         .dog {
-            margin: 0;
-            padding-left: 70px;
+            width: 50%;
         }
 
-        .botao {
-            margin-left: 250px;
+        .paragrafo {
+            text-align: left;
         }
 
         .botao-transparente {
-            margin-left: 273px;
-            padding: 0;
+            padding-left: 53px;
         }
     }
 
     #clinica {
-        padding-top: 24px;
-        h2 {
-            text-align: center;
-        }
-
         .paragrafo {
-            text-align: justify;
+            text-align: left;
         }
         .dog-c {
-            margin-top: 10px;
-            margin-right: 60px;
-            margin-left: 100px;
+            width: 50%;
         }
     }
 
     #duvidas {
+        padding-right: 30px;
+        padding-top: 0px;
         .dvd {
-            margin-left: 50px;
+            width: 50%;
         }
     }
 
@@ -151,25 +150,49 @@
 //==========================================
 @media (max-width: 720px) {
     #inicio {
+        padding-top: 0;
         h1 {
             margin-top: 80px;
+            font-size: 25px;
         }
         .dog {
-            padding-left: 20px;
-        }
-
-        .botao {
-            margin-left: 220px;
+            height: 300px;
         }
 
         .botao-transparente {
-            margin-left: 240px;
+            padding-left: 50px;
+        }
+    }
+
+    #clinica {
+        gap: 35px;
+        h2 {
+            font-size: 25px;
+        }
+
+        .dog-c {
+            height: 300px;
+        }
+    }
+
+    #farmacia {
+        h2 {
+            font-size: 25px;
+        }
+
+        .vet-f {
+            height: 300px;
         }
     }
 
     #duvidas {
+        margin-right: 0px;
+        h2 {
+            font-size: 25px;
+        }
         .dvd {
             margin-left: 16px;
+            height: 300px;
         }
     }
 }
@@ -185,8 +208,11 @@
     }
 
     #inicio {
+        display: block;
         h1 {
-            margin-top: 24px;
+            margin-top: 0px;
+            font-size: 23px;
+
         }
         .dog {
             width: 380px;
@@ -194,17 +220,23 @@
         }
 
         .botao {
-            margin-left: 90px;
+            margin-left: 40px;
         }
 
         .botao-transparente {
-            margin-left: 113px;
+            margin-left: 69px;
         }
     }
 
     #clinica {
+        display: block;
         padding-top: 24px;
         padding-bottom: 24px;
+
+        h2{
+            font-size: 23px;
+        }
+
         .dog-c {
             width: 100%;
             margin-left: 0px;
@@ -216,18 +248,33 @@
     #farmacia {
         padding-top: 24px;
         padding-bottom: 24px;
+
+        h2 {
+            font-size: 23px;
+        }
+
         .vet-f {
             width: 100%;
         }
     }
 
     #duvidas {
+        display: block;
         padding-bottom: 24px;
         padding-right: 30px;
         padding-top: 24px;
+
+        h2 {
+            font-size: 23px;
+        }
+
         .dvd {
             margin-left: 0px;
             width: 100%;
+        }
+
+        h3 {
+            font-size: 14px;
         }
         
     }
@@ -247,26 +294,30 @@
         padding-right: 35px;
         padding-bottom: 44px;
 
+        h1 {
+            font-size: 23px;
+        }
+
         .dog {
             padding-left: 0px;
         }
 
         .paragrafo {
-            text-align: center;
-        }
-
-        .botao {
-            margin-left: 70px;
+            text-align: left;
         }
 
         .botao-transparente {
-            margin-left: 90px;
+            margin-left: 45px;
         }
     }
 
     #clinica {
+        h2 {
+            font-size: 23px;
+        }
+
         .paragrafo {
-            text-align: center;
+            text-align: left;
         }
     }
 
@@ -275,6 +326,7 @@
 
         h2 {
             margin-bottom: 0px;
+            font-size: 23px;
         }
 
         .vet-f {
@@ -285,6 +337,10 @@
 
     #duvidas {
         padding-top: 0px;
+        
+        h2 {
+            font-size: 23px;     
+        }
 
         h3 {
             font-size: 14px;
@@ -301,6 +357,11 @@
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 34px;
+
+        h1{
+            font-size: 22px;
+        }
+
         .dog {
             width: 100%;
         }
@@ -309,17 +370,19 @@
             margin-top: 0px;
         }
 
-        .botao {
-            margin-left: 55px;
-        }
-
         .botao-transparente {
-            margin-left: 80px;
+            margin-left: 31px;
         }
     }
 
     #clinica {
         padding-bottom: 24px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+        h2{
+            font-size: 22px;
+        }
 
         .dog-c {
             height: 300px;
@@ -329,11 +392,19 @@
     #farmacia {
         padding-left: 25px;
         padding-right: 25px;
+
+        h2{
+            font-size: 22px;
+        }
     }
 
     #duvidas {
         padding-left: 20px;
         padding-right: 20px;
+
+        h2{
+            font-size: 22px;
+        }
 
         .dvd {
             height: 300px;
@@ -358,10 +429,11 @@
         padding-right: 20px;
         padding-bottom: 24px;
         .dog {
-            width: 100%;
+            height: 300px;
             padding-left: 0px;
         }
         h1 {
+            text-align: center;
             font-size: 25px;
             margin-top: 0px;
         }
@@ -372,12 +444,11 @@
         }
 
         .botao {
-            margin-left: 35px;
             font-size: 14px;
         }
 
         .botao-transparente {
-            margin-left: 70px;
+            margin-left: 19px;
             font-size: 14px;
         }
     }
@@ -386,6 +457,7 @@
         padding-left: 20px;
         padding-right: 20px;
         h2 {
+            text-align: center;
             font-size: 25px;
         }
 
@@ -405,6 +477,10 @@
             text-align: center;
             font-size: 25px;
             margin-bottom: 0px;
+        }
+
+        .vet-f{
+            height: 220px;
         }
 
         .paragrafo {
