@@ -18,7 +18,7 @@
         }
 
         .botao-transparente{
-            padding-left: 65px ;
+            padding-left: 80px ;
         }
     }
 
@@ -222,9 +222,9 @@
     }
 
     #duvidas {
-        padding-top: 24px;
         padding-bottom: 24px;
         padding-right: 30px;
+        padding-top: 24px;
         .dvd {
             margin-left: 0px;
             width: 100%;
@@ -237,6 +237,110 @@
         .titulo {
             margin-top: 20px;
             margin-bottom: 10px;
+        }
+    }
+}
+//==========================================
+@media (max-width: 425px) {
+    #inicio {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 44px;
+
+        .dog {
+            padding-left: 0px;
+        }
+
+        .paragrafo {
+            text-align: center;
+        }
+
+        .botao {
+            margin-left: 70px;
+        }
+
+        .botao-transparente {
+            margin-left: 90px;
+        }
+    }
+
+    #clinica {
+        .paragrafo {
+            text-align: center;
+        }
+    }
+
+    #farmacia {
+        padding-top: 0px;
+
+        h2 {
+            margin-bottom: 0px;
+        }
+
+        .vet-f {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    #duvidas {
+        padding-top: 0px;
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+}
+//==========================================
+@media (max-width: 375px) {
+    header {
+        gap: 90px;
+    }
+
+    #inicio {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 34px;
+        .dog {
+            width: 100%;
+        }
+
+        h1 {
+            margin-top: 0px;
+        }
+
+        .botao {
+            margin-left: 55px;
+        }
+
+        .botao-transparente {
+            margin-left: 80px;
+        }
+    }
+
+    #clinica {
+        padding-bottom: 24px;
+
+        .dog-c {
+            height: 300px;
+        }
+    }
+
+    #farmacia {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #duvidas {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .dvd {
+            height: 300px;
+        }
+
+        h3 {
+            font-size: 14px
         }
     }
 }
